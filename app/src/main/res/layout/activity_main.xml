@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#0C090A">
+    <EditText
+        android:textColor="#fff"
+        android:id="@+id/search_text"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:drawableStart="@drawable/ic_search_white_24dp"
+        android:textColorHint="#fff"
+        android:paddingLeft="10dp"
+        android:hint="Search Contact"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:id="@+id/contacts_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>
